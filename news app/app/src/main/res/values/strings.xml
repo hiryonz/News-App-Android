@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="super_news">Super News</string>
+    <string name="titulo_nombre">Super News</string>
+    <string name="titulo_noticias">titulo</string>
+    <string name="resumen_noticias">resumen</string>
+</resources>

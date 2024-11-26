@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:elevation="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:elevation="5dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageNews"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="256dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tituloNoticias"
+                android:text="@string/titulo_noticias"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="77dp"
+                tools:layout_editor_absoluteY="253dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/resumenNoticias"
+                android:text="@string/resumen_noticias"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="77dp"
+                tools:layout_editor_absoluteY="253dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    
+
+</androidx.cardview.widget.CardView>
